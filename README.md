@@ -24,3 +24,4 @@ Things you may want to cover:
 * Changes:
   * 2017/08/25 - New app created.  Modified from standard config to use MySql, Awesome Print and rolled back Puma.  Began development, completed Iter A1.  Push to GITHUB.
   * 2017/08/29 - Completed Chap 6 with what I am calling Iter A2.  Push to GITHUB.
+  * 2017/08/29 - Testing something with GITHUB.... 
