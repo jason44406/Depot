@@ -1,13 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+# image_url file must exist.  
+
 one:
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: MyTestImage.png
   price: 9.99
 
 two:
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: MyTestImage.png
   price: 9.99
