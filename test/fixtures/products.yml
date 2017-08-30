@@ -1,6 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-# image_url file must exist.  
+# image_url file must exist.
 
 one:
   title: MyString
@@ -13,3 +13,9 @@ two:
   description: MyText
   image_url: MyTestImage.png
   price: 9.99
+
+ruby:
+  title: Programming Ruby
+  description: Ruby test description.
+  image_url: rails.png
+  price: 49.50
