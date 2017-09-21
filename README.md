@@ -28,4 +28,4 @@ Things you may want to cover:
   * 2017/08/29 - Completed Chap 6 with what I am calling Iter A2.  Push to GITHUB.
   * 2017/08/29 - Testing something with GITHUB.... Seems to have worked.
   * 2017/08/29 - Begin Chap 7. Added Product model validation.  Fixed automated test suite for the new validations, updated the fixtures for testing, and added a blank file in images directory to pass testing.  Made more changes for the model validations (for Iter B2) and numerous tests.  Push to GIHUB.
-  * 2017/08/30 - Begin Chap 8. Completed Iter C1.  Added "store" controller and view.
+  * 2017/08/30 - Begin Chap 8. Completed Iter C1.  Added "store" controller and view.  Completed Iter C2.  Added application layout / stylesheet.
