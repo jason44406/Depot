@@ -8,6 +8,7 @@ class StoreControllerTest < ActionDispatch::IntegrationTest
     assert_select '#main .entry', 3 #Three elements from fixtures.  Would need to change if there are more added to fixtures.
     assert_select 'h3', 'Programming Ruby 1.9'
     assert_select '.price', /\$[,\d]+\.\d\d/ #lol wut?  This makes sure the price is formatted correctly.  $n.nn
+    assert_select '#columns #side #time a', 1
   end
 
 end

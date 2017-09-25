@@ -16,10 +16,13 @@
     <div id = "columns">
       <div id = "side">
         <ul>
-          <li><a hef="http://www.../">Home</a></li>
-          <li><a hef="http://www.../faq">Questions?</a></li>
-          <li><a hef="http://www.../news">News</a></li>
-          <li><a hef="http://www.../contact">Contact</a></li>
+          <li><a href="http://www.../">Home</a></li>
+          <li><a href="http://www.../faq">Questions?</a></li>
+          <li><a href="http://www.../news">News</a></li>
+          <li><a href="http://www.../contact">Contact</a></li>
+          <div id = "time">
+            <li><a href="https://www.time.gov"><%= Time.now.strftime("%F %T") %></a></li>
+          </div>
         </ul>
       </div>
       <div id = "main">
