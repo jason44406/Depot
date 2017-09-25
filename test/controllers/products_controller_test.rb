@@ -52,4 +52,17 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to products_url
   end
+
+  test "should show sidebar with time" do
+    get products_url
+    assert_select '#columns #side', 1 # Sidebar should be present
+    assert_select '#columns #side a', minimum: 4 # Should be This looks for an element named 'a' that's contained in an element with an id with a value of 'side', which is contained within an element with an id of 'columns'
+    assert_select '#columns #side #time a', 1
+  end
+
+  test "should show items in main" do
+    get products_url
+    assert_select 'tr', 3 #Three elements from fixtures.  Would need to change if there are more added to fixtures.
+  end
+
 end
