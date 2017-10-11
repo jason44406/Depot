@@ -45,6 +45,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   ## JC - Because I like it
   gem 'awesome_print'
+  gem 'pry'
 end
 
 group :development do
