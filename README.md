@@ -32,3 +32,4 @@ Things you may want to cover:
   * 2017/09/22 - Complete Iter C3.  Added time and some tests for the sidebar.  Fixed href tag in sidebar.
   * 2017/09/25 - Push to GITHUB.
   * 2017/10/10 - Complete iter D2.  Commit and Push.
+  * 2017/10/11 - Complete iter D3 and Chap 9 + extras.  Added pry gem for troubleshooting.  Added CSS for the counter on the store index.  Added tests.

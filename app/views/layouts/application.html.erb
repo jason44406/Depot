@@ -16,12 +16,15 @@
     <div id = "columns">
       <div id = "side">
         <ul>
-          <li><a href="http://www.../">Home</a></li>
-          <li><a href="http://www.../faq">Questions?</a></li>
-          <li><a href="http://www.../news">News</a></li>
+          <li><%= link_to "Home", store_index_path %></li>
+          <li><a href="http://www.wikipedia.com">Questions?</a></li>
+          <li><a href="http://www.msnbc.com">News</a></li>
           <li><a href="http://www.../contact">Contact</a></li>
           <div id = "time">
             <li><a href="https://www.time.gov"><%= Time.now.strftime("%F %T") %></a></li>
+          </div>
+          <div id = "bottom-side">
+            <li><%= link_to "Products Administration", products_path %></li>
           </div>
         </ul>
       </div>

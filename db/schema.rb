@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20170928174854) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "line_items", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "line_items", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.bigint "product_id"
     t.bigint "cart_id"
     t.datetime "created_at", null: false
