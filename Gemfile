@@ -37,6 +37,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# nokogiri must be 1.8.1+ due to CVE-2017-9050 vulnerablity.
+gem 'nokogiri', '~> 1.8.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
