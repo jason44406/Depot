@@ -39,6 +39,8 @@ gem 'jbuilder', '~> 2.5'
 
 # nokogiri must be 1.8.1+ due to CVE-2017-9050 vulnerablity.
 gem 'nokogiri', '~> 1.8.1'
+# loofah must be 2.2.1+ due to CVE-2018-8048 vulnerablity.
+gem 'loofah', '~> 2.2.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
