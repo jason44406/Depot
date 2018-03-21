@@ -24,6 +24,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * Changes:
+  * 2018/03/21 - Updated gems due to vulnerabilities - loofah-CVE-2018-8048, Nokogiri-CVE-2017-9050
   * 2017/08/25 - New app created.  Modified from standard config to use MySql, Awesome Print and rolled back Puma.  Began development, completed Iter A1.  Push to GITHUB.
   * 2017/08/29 - Completed Chap 6 with what I am calling Iter A2.  Push to GITHUB.
   * 2017/08/29 - Testing something with GITHUB.... Seems to have worked.
