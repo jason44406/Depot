@@ -12,12 +12,12 @@
 
 ActiveRecord::Schema.define(version: 20170928174854) do
 
-  create_table "carts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "carts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "line_items", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "line_items", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.bigint "product_id"
     t.bigint "cart_id"
     t.datetime "created_at", null: false
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20170928174854) do
     t.index ["product_id"], name: "index_line_items_on_product_id"
   end
 
-  create_table "products", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "products", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "title"
     t.text "description"
     t.string "image_url"

@@ -11,7 +11,7 @@ gem 'rails', '~> 5.1.3'
 gem 'rails-html-sanitizer', '~> 1.0.4'
 
 # JC - Using MySQL instead
-gem 'mysql2'
+gem 'mysql2', '= 0.4.10'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 
