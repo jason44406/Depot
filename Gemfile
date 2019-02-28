@@ -38,12 +38,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# nokogiri must be 1.8.1+ due to CVE-2017-9050 vulnerablity.
-gem 'nokogiri', '~> 1.8.1'
-# loofah must be 2.2.1+ due to CVE-2018-8048 vulnerablity.
-gem 'loofah', '~> 2.2.3'  # 2019-02-27: CVE-2018-16468
+gem 'nokogiri', '= 1.8.5'   # 2019-02-27: CVE-2018-14404
+gem 'loofah', '~> 2.2.3'    # 2019-02-27: CVE-2018-16468
 gem 'sprockets', '>= 3.7.2' # 2019-02-27: CVE-2018-3760
-gem "rubyzip", ">= 1.2.2" # 2019-02-27: CVE-2018-1000544
+gem "rubyzip", '>= 1.2.2'   # 2019-02-27: CVE-2018-1000544
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
