@@ -41,9 +41,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'nokogiri', '= 1.8.5'     # 2019-02-27: CVE-2018-14404
 gem 'loofah', '~> 2.2.3'      # 2019-02-27: CVE-2018-16468
 gem 'sprockets', '>= 3.7.2'   # 2019-02-27: CVE-2018-3760
-gem "rubyzip", '>= 1.2.2'     # 2019-02-27: CVE-2018-1000544
-gem "rack", ">= 2.0.6"        # 2019-02-27: CVE-2018-16471
-gem "activejob", ">= 5.1.6.1" # 2019-02-27: CVE-2018-16476
+gem 'rubyzip', '>= 1.2.2'     # 2019-02-27: CVE-2018-1000544
+gem 'rack', '>= 2.0.6'        # 2019-02-27: CVE-2018-16471
+gem 'activejob', '>= 5.1.6.1' # 2019-02-27: CVE-2018-16476
+gem 'ffi', '= 1.9.24'         # 2019-02-27: CVE-2018-1000201
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
