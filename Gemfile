@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.3'
+gem 'rails', '= 5.1.7' # CVE-2019-5418 and 5419 required rails to be upgraded to 5.1.7 to fix conflicts.
 gem 'rails-html-sanitizer', '~> 1.0.4'
 
 # JC - Using MySQL instead
@@ -43,8 +43,10 @@ gem 'loofah', '~> 2.2.3'      # 2019-02-27: CVE-2018-16468
 gem 'sprockets', '>= 3.7.2'   # 2019-02-27: CVE-2018-3760
 gem 'rubyzip', '>= 1.2.2'     # 2019-02-27: CVE-2018-1000544
 gem 'rack', '>= 2.0.6'        # 2019-02-27: CVE-2018-16471
-gem 'activejob', '>= 5.1.6.1' # 2019-02-27: CVE-2018-16476
 gem 'ffi', '= 1.9.24'         # 2019-02-27: CVE-2018-1000201
+# CVE-2019-5418 and 5419 required rails to be upgraded to 5.1.7 to fix conflicts.
+# gem 'activejob', '>= 5.1.7' # 2019-02-27: CVE-2018-16476
+# gem "actionview", ">= 5.1.7"# 2019-04-04: CVE-2019-5418 and 5419
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
